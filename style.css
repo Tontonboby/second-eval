@@ -35,7 +35,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color: rgb(169, 151, 151);
     box-shadow: 15px 25px 20px rgba(0, 0, 0, 0.8);
     overflow: hidden;
 }
@@ -60,6 +60,7 @@ div {
 .username-first,
 .username-second {
     font-size: 55px;
+    font-weight: 300;
     text-transform: uppercase;
     padding-bottom: 25px;
 }
@@ -67,7 +68,7 @@ div {
 .first-player-score,
 .second-player-score {
     font-size: 70px;
-    padding-bottom: 180px;
+    padding-bottom: 130px;
 }
 
 .title-box,
@@ -77,6 +78,45 @@ div {
     color: antiquewhite;
     font-size: 25px;
     text-align: center;
+    padding: 5px;
+}
+
+.title-box {
+    font-weight: 300;
+    color: black;
+}
+
+button {
+    position: absolute;
+    width: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    font-weight: 300;
+}
+
+.btn-info {
+    top: 35px
+}
+
+.btn-primary {
+    top: 350px
+}
+
+.btn-dark {
+    top: 400px
+}
+
+.dice {
+    position: absolute;
+    left: 50%;
+    top: 180px;
+    transform: translate(-50%);
+    height: 110px;
 }
 
 
@@ -87,7 +127,7 @@ footer {
     bottom: 0;
     margin-right: 30px;
     position: relative;
-    padding-top: 810px;
+    padding-top: 800px;
     text-align: end;
 }
 
